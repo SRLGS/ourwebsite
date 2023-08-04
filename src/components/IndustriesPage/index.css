@@ -1,0 +1,49 @@
+.toolsHeading{
+    font-weight:900;
+    font-family:"Playfair Display SC";
+    color:#ffffff;
+    font-size:25px;
+}
+
+.h-line{
+    border-bottom: 3px solid #529ff1;
+    width: 150px;
+    margin: auto;
+}
+
+
+.industriesImage{
+  height:29px;
+  width:29px;
+}
+
+.ToolsPageContainer{
+    width:95%;
+}
+
+.totalToolsPageContainer{
+    background-image:url("https://www.techasoft.com/debug/img/industries-back.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+}
+
+.toolPageParaColor{
+    font-weight:600;
+    color:#ffffff
+}
+
+
+.image-evolution img {
+    opacity: 0; /* The images are initially hidden */
+    transition: opacity 0.5s ease; /* Use a transition for the evolving effect */
+  }
+  
+  .image-evolution.evolved img {
+    opacity: 1; /* When the images are evolved, they become visible */
+  }
+
+  .educationImage{
+    color:#ffffff;
+  }
+  

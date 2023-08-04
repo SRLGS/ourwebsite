@@ -1,0 +1,60 @@
+.totalContactUsContainer{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contactUsContainer{
+    width:90%;
+    font-family:"Playfair Display SC";
+    height:90%;
+    display:flex;
+}
+
+.detailsContainer{
+    flex-grow:2;
+   
+}
+.formContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.smallInput{
+    width:300px;
+}
+
+
+.contactbutton{
+    color:#ffffff;
+    align-self:flex-start;
+}
+
+
+
+.contactPara{
+    color:#ffffff;
+    font-weight:50;
+}
+.contactfind{
+    color:#ffffff;
+}
+
+
+
+
+.aboutUsContainer{
+    background-color:#4c4f4c;
+    font-weight:900;
+}
+
+@media(max-width:992px){
+
+    .contactUsContainer{
+        display:flex;
+        flex-direction:column;
+    }
+
+}

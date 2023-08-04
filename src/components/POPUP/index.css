@@ -1,0 +1,98 @@
+/* Add your preferred styling for the popup here */
+/*.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .Modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }*/
+
+  /* Popup.css */
+
+
+
+
+
+.popupContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:flex;
+  flex-direction:column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width:70%;
+  padding:20px;
+}
+
+.popupIconCotainer{
+  align-self:flex-end;
+  padding:5px;
+}
+
+.popupIcon{
+  border-radius:100%;
+  border:2px solid black;
+}
+
+
+
+.popupContent{
+  display:flex;
+  background-color:rgb(254, 234, 234);
+}
+
+.formContainer{
+  flex-grow:0.5;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+
+.smallInput{
+  width:250px;
+}
+
+
+.contactbutton{
+  color:#ffffff;
+  align-self:flex-start;
+}
+
+.popupImageContainer{
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  flex-grow:1.5;
+ background-image:url("https://res.cloudinary.com/dkajxnnlq/image/upload/v1690437123/laptopstopicpage-2048px-2102-2x1-1_p5wjvp.webp");
+}
+
+
+@media(max-width:992px){
+
+  .popupContent{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(254, 234, 234);
+  }
+  .popupImageContainer {
+    height:300px;
+  }
+
+}

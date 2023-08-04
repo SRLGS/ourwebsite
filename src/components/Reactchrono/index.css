@@ -1,0 +1,21 @@
+.chrono-container {
+  height:100vh;
+  width:100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  .icon{
+    background-color:green;
+    color:green
+  }
+  .chrono-icons{
+    width:100px;
+    background-color:green;
+    height:100px;
+  }

@@ -1,0 +1,161 @@
+.headerLink{
+
+  font-family:"Playfair Display SC";
+
+  text-decoration:none;
+
+  color:#475569;
+
+}
+
+
+
+
+.headerImage{
+
+  height:30px;
+
+  width:30px;
+
+}
+
+
+
+
+.HeaderText{
+
+  font-size:15px;
+
+  color:whitesmoke;
+  font-weight:bold;
+
+}
+
+.userNavbar{
+
+  height:60px;
+
+}
+
+
+
+
+@media(min-width:700px){
+
+  .navbarText{
+
+      display:flex;
+
+      justify-content:space-between;
+
+      width:90%;
+
+  }
+
+  
+
+
+}
+
+
+
+
+
+.Headerbutton-container {
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+
+
+.Headerhover-button {
+
+  padding: 8px 12px;
+
+  background-color: #ffffff;
+
+  cursor: pointer;
+
+  background-color:transparent;
+
+  border:none;
+
+  outline:none;
+
+}
+
+
+
+.Headeroptions {
+
+  width:600px;
+
+  position:absolute;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+  display: none;
+
+
+
+
+
+}
+
+
+
+.Headerbutton-container:hover .Headeroptions {
+  
+
+  display: block;
+
+}
+
+
+
+.Headeroption-item {
+
+  padding: 4px 8px;
+
+  cursor: pointer;
+
+}  
+
+.Headeroption-item:hover {
+
+  color:greenyellow;
+  background-color:#007bff;
+
+  padding-left:30px;
+
+  text-decoration:underline;
+
+}
+
+
+
+.link{
+
+  text-decoration:none;
+
+  color:#475569;
+
+}
+
+
+@media(max-width:992px){
+
+  .HeaderText{
+
+    font-size:15px;  
+    color:black;
+  
+  }
+
+}
+
+

@@ -1,0 +1,42 @@
+.IndustriesHeading{
+    font-weight:900;
+    font-family:"Playfair Display SC";
+    color:#062953;
+    font-size:25px;
+}
+
+.h-line{
+    border-bottom: 3px solid #529ff1;
+    width: 150px;
+    margin: auto;
+}
+
+
+.technologyIndustriesImage{
+  height:60px;
+  width:60px;
+}
+
+.ToolsPageContainer{
+    width:95%;
+}
+
+.totalIndustriesPageContainer{
+    display:flex;
+    justify-content:center;
+}
+
+.toolPageParaColor{
+    font-weight:600;
+    color:#ffffff
+}
+
+
+.image-evolution img {
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+  }
+  
+  .image-evolution.evolved img {
+    opacity: 1; 
+  }
